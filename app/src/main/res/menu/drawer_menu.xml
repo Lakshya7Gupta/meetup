@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+
+      <item android:id="@+id/nav_weather"
+          android:icon="@drawable/weather_icon"
+          android:title="Weather Check"/>
+
+      <item android:id="@+id/nav_location"
+          android:icon="@drawable/location_icon"
+          android:title="Location Check"/>
+
+
+
+
+  </group>
+    <item android:title="Social">
+        <menu>
+
+            <item android:id="@+id/nav_news"
+                android:icon="@drawable/news_icon"
+                android:title="Daily Buzz"/>
+
+            <item android:id="@+id/nav_gotomail"
+                android:icon="@drawable/gotomail"
+                android:title="Go to Mail"/>
+
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="Log Out"/>
+
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>
